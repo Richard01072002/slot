@@ -27,7 +27,7 @@ Execute the program using runserver command.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SLOT TIME TABLE - RICHARDSON A (23000803)</title>
+    <title>SLOT TIME TABLE -RICHARDSON A (23000803)</title>
     <style>
         table {
             border-collapse: collapse;
@@ -35,36 +35,25 @@ Execute the program using runserver command.
             margin: 5px auto;
         }
 
-        table + table {
-            margin-top: 20px;
-        }
-
         th, td {
-            border: 5px solid Black;
+            border: 1px solid #000000;
             text-align: center;
             padding: 8px;
-        }
-
-        img {
-            width: 100%;
-            height: 15%;
-        }
-
-        .center-text {
-            text-align: center;
-        }
-        
-        strong {
-            font-weight: bold;
-            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <img src="logo.png">
-    <div class="center-text">
-        <p><strong>SLOT TIME TABLE - RICHARDSON A (23000803)</strong></p>
-    </div>
+<style>
+    .center-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <img src="/Users/apple/Desktop/web/EXP3/logo.jpeg">
+  <div class="center-text">
+    <p>SLOT TIME TABLE -RICHARDSON A (23000803)</p>
+  </div>
     <table>
         <tr>
             <th colspan="1" bgcolor="Yellow">Day/Time</th>
@@ -80,79 +69,84 @@ Execute the program using runserver command.
             <th colspan="1" bgcolor="Cyan">PHY</th>
             <th colspan="1" bgcolor="Cyan">CHE</th>
         </tr>
-        <tr>
+	<tr>
             <th colspan="1" bgcolor="Yellow">10-12</th>
             <th colspan="1" bgcolor="Cyan">GER</th>
-            <th colspan="1" bgcolor="Cyan">FREE SLOT</th>
+            <th colspan="1" bgcolor="Cyan">FREESLOT</th>
             <th colspan="1" bgcolor="Cyan">FWAD</th>
-            <th colspan="1" bgcolor="Cyan">FWAD</th>
+	    <th colspan="1" bgcolor="Cyan">FWAD</th>
             <th colspan="1" bgcolor="Cyan">PHY</th>
         </tr>
-        <tr>
+
+	<tr>
             <th colspan="1" bgcolor="Yellow">12-1</th>
-            <th colspan="5" bgcolor="Cyan">LUNCH</th>
+            <th colspan="5" bgcolor="Cyan">LUNCH BREAK</th>
         </tr>
-        <tr>
+	<tr>
             <th colspan="1" bgcolor="Yellow">1-3</th>
             <th colspan="2" bgcolor="Cyan">FREE SLOT</th>
             <th colspan="1" bgcolor="Cyan">MAT</th>
             <th colspan="1" bgcolor="Cyan">MAT</th>
-            <th colspan="1" bgcolor="Cyan">SS</th>
-        </tr>
+	    <th colspan="1" bgcolor="Cyan">SS</th>
         </tr>
         <tr>
-            <th colspan="1" bgcolor="Yellow">3-5</th>
+            <th colspan="1" bgcolor="Yellow">1-3</th>
             <th colspan="2" bgcolor="Cyan">FREE SLOT</th>
             <th colspan="1" bgcolor="Cyan">GER</th>
             <th colspan="1" bgcolor="Cyan">CHE</th>
-            <th colspan="1" bgcolor="Cyan">FWAD</th>
+	    <th colspan="1" bgcolor="Cyan">FWAD</th>
         </tr>
-    </table>
+      </table>
 
-    <table>
+
+
+
+
+
+      <table>
         <tr>
-            <th colspan="1" bgcolor="White">S. No.</th>
-            <th colspan="1" bgcolor="White">Subject Code</th>
-            <th colspan="2" bgcolor="White">Subject Name</th>
+            <th colspan="1">S.NO</th>
+            <th colspan="1">Subject code</th>
+	    <th colspan="1">Subject Name</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">1.</th>
-            <th colspan="1" bgcolor="White">19AI41</th>
-            <th colspan="2" bgcolor="White">Fundamentals of Web Application Development(FWAD)</th>
+	<tr>
+            <th colspan="1">1</th>
+            <th colspan="1">19AI414</th>
+	    <th colspan="1">Fundamentals of Web application Development</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">2.</th>
-            <th colspan="1" bgcolor="White">19EN612</th>
-            <th colspan="2" bgcolor="White">German Basic (GER)</th>        
+	<tr>
+            <th colspan="1">2</th>
+            <th colspan="1">19EN612</th>
+	    <th colspan="1">German Basic(GER)</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">3.</th>
-            <th colspan="1" bgcolor="White">19PH206</th>
-            <th colspan="2" bgcolor="White">Physics for Information Technology (PHY)</th> 
+	<tr>
+            <th colspan="1">3</th>
+            <th colspan="1">19PH206</th>
+	    <th colspan="1">Physics for Information Technology</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">4.</th>
-            <th colspan="1" bgcolor="White">19CY205</th>
-            <th colspan="2" bgcolor="White">Principles of Chemistry in Engineering (CHE)</th> 
+	<tr>
+            <th colspan="1">4</th>
+            <th colspan="1">19CY205</th>
+	    <th colspan="1">Principles of Chemistry in Engineering</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">5.</th>
-            <th colspan="1" bgcolor="White">19MA201</th>
-            <th colspan="2" bgcolor="White">Calculus and Matrix Algebra (MAT)</th> 
+	<tr>
+            <th colspan="1">5</th>
+            <th colspan="1">19MA201</th>
+	    <th colspan="1">Calculas and Matrix Algebra(MAT)</th>
         </tr>
-        <tr>
-            <th colspan="1" bgcolor="White">6.</th>
-            <th colspan="1" bgcolor="White">19EY701</th>
-            <th colspan="2" bgcolor="White">Soft Skills (SS)</th> 
+	<tr>
+            <th colspan="1">6</th>
+            <th colspan="1">19EY701</th>
+	    <th colspan="1">SOFT skills</th>
         </tr>
-    </table>
-</body>
-</html>
+      </table>
+    </body>
+  </html>
 ```
 
 ## OUTPUT
 
-<img width="1440" alt="Screenshot 2023-10-10 at 12 19 21 PM" src="https://github.com/Richard01072002/slot/assets/141472248/28e7211b-9b70-4563-83a5-df977b4d4e0f">
+![image](https://github.com/Richard01072002/slot/assets/141472248/b7f45c1b-3fc9-45f3-91eb-8066e4ac5f49)
 
 
 ## HTML VALIDATOR
